@@ -36,7 +36,7 @@
 ### 2. Installation
 **Clone the repo:**
 ```bash
-git clone [https://github.com/sunnybhardwaj2027/codesync-pro.git](https://github.com/sunnybhardwaj2027/codesync-pro.git)
+git clone [https://github.com/nancy-jaiswal19/CodeSync-Pro.git](https://github.com/nancy-jaiswal19/CodeSync-Pro.git)
 cd codesync-pro
 
 ### Setup Backend:
@@ -55,4 +55,4 @@ As a competitive programmer who has solved 1000+ DSA problems, I realized that t
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Developed with ❤️ by Sunny Kumar
+Developed with ❤️ by Nancy Jaiswal
