@@ -69,6 +69,8 @@ app.post("/compile", async (req, res) => {
         res.status(500).json({ output: "Compiler Error." });
     }
 });
-
+app.get("/", (req, res) => {
+  res.send("Backend is running 🚀");
+});
 const PORT = process.env.PORT || 3001;
 server.listen(PORT, () => console.log(`SERVER RUNNING ON PORT ${PORT}`));
