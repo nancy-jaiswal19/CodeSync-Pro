@@ -5,7 +5,7 @@ import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
 import { Play, Copy, Users, MessageSquare, Send, Code2, ChevronRight, Terminal } from 'lucide-react';
 
-const API_URL = window.location.hostname === "localhost" ? "http://localhost:3001" : "https://codesync-pro-tfcn.onrender.com/";
+const API_URL = window.location.hostname === "localhost" ? "http://localhost:3001" : "https://codesync-pro-tfcn.onrender.com";
 const socket = io(API_URL, { transports: ["websocket"] });
 
 function App() {
