@@ -218,7 +218,7 @@ const Landing = () => {
         color: "#555",
         fontSize: "14px"
       }}>
-        <p>© 2026 CodeSync Pro. Built by <span style={{ color: "#888" }}>Sunny Kumar</span></p>
+        <p>© 2026 CodeSync Pro. Built by <span style={{ color: "#888" }}>Nancy Jaiswal</span></p>
       </footer>
     </div>
   );

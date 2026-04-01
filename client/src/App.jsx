@@ -5,7 +5,7 @@ import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
 import { Play, Copy, Users, MessageSquare, Send, Code2, ChevronRight, Terminal } from 'lucide-react';
 
-const API_URL = window.location.hostname === "localhost" ? "http://localhost:3001" : "https://codesync-pro-tb71.onrender.com";
+const API_URL = window.location.hostname === "localhost" ? "http://localhost:3001" : "https://codesync-pro-tfcn.onrender.com/";
 const socket = io(API_URL, { transports: ["websocket"] });
 
 function App() {
@@ -23,9 +23,9 @@ function App() {
   const isRemoteUpdate = useRef(false);
 
   const snippets = {
-    cpp: "#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"Hello Sunny!\";\n    return 0;\n}",
-    python: "print('Hello Sunny!')",
-    java: "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello Sunny!\");\n    }\n}"
+    cpp: "#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"Hello Nancy!\";\n    return 0;\n}",
+    python: "print('Hello Nancy!')",
+    java: "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello Nancy!\");\n    }\n}"
   };
 
   useEffect(() => { setCode(snippets[language]); }, [language]);
